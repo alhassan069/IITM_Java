@@ -12,29 +12,29 @@ package graded_assignment;
 //         }
 // }
 
-// public class FClass {
-//     public static void main(String args[]) {
-//         int x = 1;
-//         if (false) {
-//             System.out.println(x);
-//         } else {
-//             System.out.println("True");
-//         }
-//     }
-// }
-
-public class FClass {
+public class FClass2 {
     public static void main(String args[]) {
-        switch (1) {
-            case 1:
-                System.out.println("One");
-            case 2:
-                System.out.println("Two");
-            case 3:
-                System.out.println("Three");
-            default:
-                System.out.println("Default");
-                break;
+        int x = 1;
+        if (x) {
+            System.out.println(x);
+        } else {
+            System.out.println("True");
         }
     }
 }
+
+// public class FClass {
+//     public static void main(String args[]) {
+//         switch (1) {
+//             case 1:
+//                 System.out.println("One");
+//             case 2:
+//                 System.out.println("Two");
+//             case 3:
+//                 System.out.println("Three");
+//             default:
+//                 System.out.println("Default");
+//                 break;
+//         }
+//     }
+// }
